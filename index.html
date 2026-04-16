@@ -1,0 +1,896 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Soft Step - Professional Carpet & Upholstery Cleaning Services. Transform your home with our expert cleaning services."
+    />
+    <meta
+      name="keywords"
+      content="carpet cleaning, upholstery cleaning, mattress cleaning, stain removal, odor removal, professional cleaning"
+    />
+    <meta name="author" content="Soft Step Cleaning" />
+    <meta
+      property="og:title"
+      content="Soft Step - Professional Cleaning Services"
+    />
+    <meta
+      property="og:description"
+      content="Transform your home with our expert carpet, sofa, and upholstery cleaning services."
+    />
+    <meta property="og:type" content="website" />
+    <title>Soft Step - Professional Carpet & Upholstery Cleaning</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="preloader" class="preloader">
+      <div class="preloader-content">
+        <div class="logo-container">
+          <img
+            src="preloader-logo.png"
+            alt="Soft Step"
+            class="preloader-logo"
+          />
+        </div>
+        <div class="loading-bar">
+          <div class="loading-progress"></div>
+        </div>
+        <div class="loading-percentage">0%</div>
+      </div>
+    </div>
+
+    <!-- Header/Navigation -->
+    <header id="header" class="header">
+      <div class="container">
+        <nav class="navbar">
+          <a href="#" class="logo">
+            <img src="logo.png" alt="Soft Step" class="logo-img" />
+          </a>
+
+          <ul class="nav-menu" id="navMenu">
+            <li>
+              <a href="#home" class="nav-link" data-key="navHome">Home</a>
+            </li>
+            <li>
+              <a href="#services" class="nav-link" data-key="navServices"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a href="#about" class="nav-link" data-key="navAbout">About</a>
+            </li>
+            <li>
+              <a href="#gallery" class="nav-link" data-key="navGallery"
+                >Gallery</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="nav-link" data-key="navContact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <div class="nav-actions">
+            <div class="language-selector">
+              <button class="lang-btn" id="langBtn">
+                <i class="fas fa-globe"></i>
+                <span class="current-lang">EN</span>
+              </button>
+              <div class="lang-dropdown" id="langDropdown">
+                <button class="lang-option" data-lang="en">
+                  <span class="flag">🇺🇸</span> English
+                </button>
+                <button class="lang-option" data-lang="es">
+                  <span class="flag">🇪🇸</span> Español
+                </button>
+                <button class="lang-option" data-lang="pt">
+                  <span class="flag">🇧🇷</span> Português
+                </button>
+              </div>
+            </div>
+
+            <a
+              href="#contact"
+              class="btn btn-primary nav-cta"
+              data-key="getQuote"
+              >Get Quote</a
+            >
+
+            <button class="hamburger" id="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-background">
+        <img
+          src="hero-2.jpg"
+          alt="Professional cleaning services"
+          class="hero-img"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-particles" id="heroParticles"></div>
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title" data-key="heroTitle">
+            Professional Carpet & Upholstery Cleaning
+          </h1>
+          <p class="hero-subtitle" data-key="heroSubtitle">
+            Transform your home with our expert cleaning services. We bring new
+            life to your carpets, sofas, mattresses, and more.
+          </p>
+          <div class="hero-buttons">
+            <a
+              href="#contact"
+              class="btn btn-primary btn-lg"
+              data-key="freeQuote"
+              >Get a Free Quote</a
+            >
+            <a
+              href="#services"
+              class="btn btn-outline btn-lg"
+              data-key="viewServices"
+              >View Our Services</a
+            >
+          </div>
+        </div>
+      </div>
+      <a href="#services" class="scroll-indicator">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-key="servicesTitle">
+            Our Cleaning Services
+          </h2>
+          <p class="section-subtitle" data-key="servicesSubtitle">
+            Professional solutions for every surface in your home
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-spray-can"></i>
+            </div>
+            <h3 class="service-title" data-key="service1">Carpet Cleaning</h3>
+            <p class="service-description" data-key="service1Desc">
+              Deep cleaning that removes dirt, allergens, and stains from your
+              carpets, leaving them fresh and revitalized.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-couch"></i>
+            </div>
+            <h3 class="service-title" data-key="service2">
+              Upholstery Cleaning
+            </h3>
+            <p class="service-description" data-key="service2Desc">
+              Gentle yet effective cleaning for all types of furniture fabrics,
+              extending their life and beauty.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-bed"></i>
+            </div>
+            <h3 class="service-title" data-key="service3">Mattress Cleaning</h3>
+            <p class="service-description" data-key="service3Desc">
+              Eliminate dust mites, allergens, and odors for a healthier night's
+              sleep.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-wind"></i>
+            </div>
+            <h3 class="service-title" data-key="service4">Odor Removal</h3>
+            <p class="service-description" data-key="service4Desc">
+              Neutralize unpleasant smells at their source, not just mask them.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-spray-can-sparkles" style="color: rgb(255, 255, 255);"></i>
+            </div>
+            <h3 class="service-title" data-key="service5">Stain Removal</h3>
+            <p class="service-description" data-key="service5Desc">
+              Expert treatment for tough stains that others can't remove.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-rug"></i>
+            </div>
+            <h3 class="service-title" data-key="service6">Area Rug Cleaning</h3>
+            <p class="service-description" data-key="service6Desc">
+              Specialized care for delicate and antique rugs of all materials.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="about-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+      </div>
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image-wrapper">
+            <div class="about-image-frame"></div>
+            <div class="about-image">
+              <img
+                src="about-cleaner2.png"
+                alt="Professional cleaner cleaning sofa"
+              />
+            </div>
+          </div>
+
+          <div class="about-content">
+            <span class="section-label" data-key="aboutLabel">About Us</span>
+            <h2 class="section-title" data-key="aboutTitle">
+              Trusted Cleaning Professionals
+            </h2>
+            <p class="about-text" data-key="aboutText1">
+              With over 4 years of experience, Soft Step has been transforming
+              homes across the region with our professional cleaning services.
+            </p>
+            <p class="about-text" data-key="aboutText2">
+              We use eco-friendly products and advanced techniques to ensure the
+              best results for your family and the environment.
+            </p>
+            <a href="#contact" class="btn btn-primary" data-key="learnMore"
+              >Learn More About Us</a
+            >
+          </div>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-number" data-count="2">0</div>
+            <div class="stat-suffix">+</div>
+            <div class="stat-label" data-key="stat1">Years Experience</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-count="300">0</div>
+            <div class="stat-suffix">+</div>
+            <div class="stat-label" data-key="stat2">Happy Customers</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-count="100">0</div>
+            <div class="stat-suffix">%</div>
+            <div class="stat-label" data-key="stat3">
+              Satisfaction Guarantee
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-key="galleryTitle">
+            See the Difference
+          </h2>
+          <p class="section-subtitle" data-key="gallerySubtitle">
+            Swipe to explore our transformation results
+          </p>
+        </div>
+
+        <div class="gallery-carousel">
+          <button class="carousel-btn carousel-prev" id="carouselPrev">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+
+          <div class="carousel-container">
+            <div class="carousel-track" id="carouselTrack">
+              <div class="gallery-card">
+                <div class="gallery-images">
+                  <div class="gallery-image before">
+                    <img
+                      src="rug-dirt.png"
+                      alt="Carpet before cleaning"
+                    />
+                    <span class="gallery-label label-before">Before</span>
+                  </div>
+                  <div class="gallery-image after">
+                    <img
+                      src="rug-clean.png"
+                      alt="Carpet after cleaning"
+                    />
+                    <span class="gallery-label label-after">After</span>
+                  </div>
+                </div>
+                <h3 class="gallery-title" data-key="gallery1">
+                  Living Room Carpet
+                </h3>
+              </div>
+
+              <div class="gallery-card">
+                <div class="gallery-images">
+                  <div class="gallery-image before">
+                    <img
+                      src="sofa-dirt.png"
+                      alt="Sofa before cleaning"
+                    />
+                    <span class="gallery-label label-before">Before</span>
+                  </div>
+                  <div class="gallery-image after">
+                    <img
+                      src="sofa-clean.png"
+                      alt="Sofa after cleaning"
+                    />
+                    <span class="gallery-label label-after">After</span>
+                  </div>
+                </div>
+                <h3 class="gallery-title" data-key="gallery2">Sofa Cleaning</h3>
+              </div>
+
+              <div class="gallery-card">
+                <div class="gallery-images">
+                  <div class="gallery-image before">
+                    <img
+                      src="bed-dirt.png"
+                      alt="Mattress before cleaning"
+                    />
+                    <span class="gallery-label label-before">Before</span>
+                  </div>
+                  <div class="gallery-image after">
+                    <img
+                      src="bed-clean.png"
+                      alt="Mattress after cleaning"
+                    />
+                    <span class="gallery-label label-after">After</span>
+                  </div>
+                </div>
+                <h3 class="gallery-title" data-key="gallery3">
+                  Mattress Restoration
+                </h3>
+              </div>
+
+              <div class="gallery-card">
+                <div class="gallery-images">
+                  <div class="gallery-image before">
+                    <img
+                      src="sofa-stain.png"
+                      alt="Rug before cleaning"
+                    />
+                    <span class="gallery-label label-before">Before</span>
+                  </div>
+                  <div class="gallery-image after">
+                    <img
+                      src="sofa-no-stain.png"
+                      alt="Rug after cleaning"
+                    />
+                    <span class="gallery-label label-after">After</span>
+                  </div>
+                </div>
+                <h3 class="gallery-title" data-key="gallery4">Stain Removal & Satisfaction</h3>
+              </div>
+
+              
+            </div>
+          </div>
+
+          <button class="carousel-btn carousel-next" id="carouselNext">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+
+        <div class="carousel-dots" id="carouselDots"></div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="why-us">
+      <div class="container">
+        <div class="why-us-grid">
+          <div class="why-us-content">
+            <h2 class="section-title" data-key="whyTitle">
+              Why Choose Soft Step?
+            </h2>
+            <p class="section-subtitle" data-key="whySubtitle">
+              We're committed to delivering exceptional results
+            </p>
+
+            <ul class="features-list">
+              <li class="feature-item">
+                <div class="feature-icon">
+                  <i class="fas fa-leaf"></i>
+                </div>
+                <div class="feature-text">
+                  <h4 data-key="feature1">Eco-Friendly Products</h4>
+                  <p data-key="feature1Desc">Safe for your family and pets</p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-icon">
+                  <i class="fas fa-user-tie"></i>
+                </div>
+                <div class="feature-text">
+                  <h4 data-key="feature2">Experienced Professionals</h4>
+                  <p data-key="feature2Desc">Trained and certified team</p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-icon">
+                  <i class="fas fa-cogs"></i>
+                </div>
+                <div class="feature-text">
+                  <h4 data-key="feature3">Advanced Equipment</h4>
+                  <p data-key="feature3Desc">Latest cleaning technology</p>
+                </div>
+              </li>
+
+              
+
+              <li class="feature-item">
+                <div class="feature-icon">
+                  <i class="fas fa-calendar-alt"></i>
+                </div>
+                <div class="feature-text">
+                  <h4 data-key="feature5">Flexible Scheduling</h4>
+                  <p data-key="feature5Desc">Book at your convenience</p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-icon">
+                  <i class="fas fa-dollar-sign"></i>
+                </div>
+                <div class="feature-text">
+                  <h4 data-key="feature6">Competitive Pricing</h4>
+                  <p data-key="feature6Desc">Transparent, no hidden fees</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="why-us-image">
+            <img
+              src="why-equipment.jpg"
+              alt="Professional cleaner with carpet cleaning machine"
+            />
+            <div class="floating-badge badge-1">
+              <i class="fas fa-award"></i>
+              <span data-key="badge1">Top Rated</span>
+            </div>
+            <div class="floating-badge badge-2">
+              <i class="fas fa-clock"></i>
+              <span data-key="badge2">24/7 Service</span>
+            </div>
+            <div class="floating-badge badge-3">
+              <i class="fas fa-shield-alt"></i>
+              <span data-key="badge3">Insured</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-key="testimonialsTitle">
+            What Our Customers Say
+          </h2>
+          <p class="section-subtitle" data-key="testimonialsSubtitle">
+            Real reviews from satisfied clients
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="quote-icon">
+              <i class="fas fa-quote-left"></i>
+            </div>
+            <div class="testimonial-content">
+              <p class="testimonial-text" data-key="testimonial1">
+                "Amazing service! My carpets look brand new. The team was
+                professional and efficient. Highly recommend!"
+              </p>
+              <div class="testimonial-author">
+                <img
+                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&q=80"
+                  alt="Sarah M."
+                  class="author-avatar"
+                />
+                <div class="author-info">
+                  <h4>Sarah M.</h4>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="quote-icon">
+              <i class="fas fa-quote-left"></i>
+            </div>
+            <div class="testimonial-content">
+              <p class="testimonial-text" data-key="testimonial2">
+                "Professional team, great results, fair price. They removed
+                stains I thought were permanent. Very impressed!"
+              </p>
+              <div class="testimonial-author">
+                <img
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&q=80"
+                  alt="John U."
+                  class="author-avatar"
+                />
+                <div class="author-info">
+                  <h4>John U.</h4>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="quote-icon">
+              <i class="fas fa-quote-left"></i>
+            </div>
+            <div class="testimonial-content">
+              <p class="testimonial-text" data-key="testimonial3">
+                "Best cleaning service I've ever used! They were on time,
+                thorough, and my house smells amazing. Will definitely use
+                again!"
+              </p>
+              <div class="testimonial-author">
+                <img
+                  src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=120&q=80"
+                  alt="Emily R."
+                  class="author-avatar"
+                />
+                <div class="author-info">
+                  <h4>Emily R.</h4>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="contact-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+      </div>
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-form-wrapper">
+            <h2 class="section-title" data-key="contactTitle">
+              Get Your Free Quote
+            </h2>
+            <p class="section-subtitle" data-key="contactSubtitle">
+              Fill out the form and we'll get back to you within 24 hours
+            </p>
+
+            <form
+              id="quoteForm"
+              class="contact-form"
+              action="https://formspree.io/f/xaqaqgnz"
+              method="POST"
+            >
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder=" "
+                />
+                <label for="name" data-key="labelName">Name *</label>
+                <span class="form-line"></span>
+              </div>
+
+              <div class="form-group">
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  required
+                  placeholder=" "
+                />
+                <label for="phone" data-key="labelPhone">Phone *</label>
+                <span class="form-line"></span>
+              </div>
+
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder=" "
+                />
+                <label for="email" data-key="labelEmail">Email *</label>
+                <span class="form-line"></span>
+              </div>
+
+              <div class="form-group">
+                <select id="service" name="service" required>
+                  <option value="" data-key="selectService">
+                    Select a Service *
+                  </option>
+                  <option value="carpet" data-key="optCarpet">
+                    Carpet Cleaning
+                  </option>
+                  <option value="upholstery" data-key="optUpholstery">
+                    Upholstery Cleaning
+                  </option>
+                  <option value="mattress" data-key="optMattress">
+                    Mattress Cleaning
+                  </option>
+                  <option value="odor" data-key="optOdor">Odor Removal</option>
+                  <option value="stain" data-key="optStain">
+                    Stain Removal
+                  </option>
+                  <option value="rug" data-key="optRug">
+                    Area Rug Cleaning
+                  </option>
+                  <option value="other" data-key="optOther">Other</option>
+                </select>
+                <span class="form-line"></span>
+              </div>
+
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder=" "
+                ></textarea>
+                <label for="message" data-key="labelMessage">Message</label>
+                <span class="form-line"></span>
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn-primary btn-submit"
+                data-key="btnSubmit"
+              >
+                <span class="btn-text">Request a Quote</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+
+          <div class="contact-info">
+            <h3 data-key="contactInfoTitle">Contact Information</h3>
+
+            <div class="info-items">
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="info-text">
+                  <span class="info-label" data-key="infoPhone">Phone</span>
+                  <a href="tel:3853548997">385 354 8997</a>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info-text">
+                  <span class="info-label" data-key="infoEmail">Email</span>
+                  <a href="mailto:Rafaelcayress@gmail.com"
+                    >Rafaelcayress@gmail.com</a
+                  >
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="info-text">
+                  <span class="info-label" data-key="infoHours">Hours</span>
+                  <span data-key="hoursText">Mon-Sat: 8AM - 6PM</span>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="info-text">
+                  <span class="info-label" data-key="infoLocation"
+                    >Service Area</span
+                  >
+                  <span data-key="locationText"
+                    >Serving Salt Lake City & Surrounding Areas</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="instagram-box">
+              <a
+                href="https://instagram.com/softstepslc"
+                target="_blank"
+                class="instagram-link"
+              >
+                <i class="fab fa-instagram"></i>
+                <span>@softstepslc</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#" class="footer-logo">
+              <img src="ss-logo.jpeg" alt="Soft Step" class="footer-logo-img" />
+            </a>
+            <p class="footer-tagline" data-key="footerTagline">
+              Professional cleaning services for your home
+            </p>
+            <div class="social-links">
+              <a
+                href="https://instagram.com/softstepslc"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/softstepslc" class="social-link">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <!-- <a href="#" class="social-link">
+                <i class="fab fa-twitter"></i>
+              </a> -->
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <h4 data-key="footerQuickLinks">Quick Links</h4>
+            <ul>
+              <li><a href="#home" data-key="navHome">Home</a></li>
+              <li><a href="#services" data-key="navServices">Services</a></li>
+              <li><a href="#about" data-key="navAbout">About Us</a></li>
+              <li><a href="#gallery" data-key="navGallery">Gallery</a></li>
+              <li><a href="#contact" data-key="navContact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links">
+            <h4 data-key="footerServices">Services</h4>
+            <ul>
+              <li>
+                <a href="#services" data-key="service1">Carpet Cleaning</a>
+              </li>
+              <li>
+                <a href="#services" data-key="service2">Upholstery Cleaning</a>
+              </li>
+              <li>
+                <a href="#services" data-key="service3">Mattress Cleaning</a>
+              </li>
+              <li><a href="#services" data-key="service5">Stain Removal</a></li>
+              <li><a href="#services" data-key="service4">Odor Removal</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-contact">
+            <h4 data-key="footerContact">Contact</h4>
+            <ul>
+              <li>
+                <i class="fas fa-phone-alt"></i>
+                <a href="tel:3853548997">385 354 8997</a>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:Rafaelcayress@gmail.com"
+                  >Rafaelcayress@gmail.com</a
+                >
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2024 Soft Step Cleaning.
+            <span data-key="footerRights">All rights reserved.</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+      <a
+        href="https://wa.me/13853548997"
+        target="_blank"
+        class="fab fab-whatsapp"
+        aria-label="WhatsApp"
+      >
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="sms:13853548997" class="fab fab-sms" aria-label="SMS">
+        <i class="fas fa-comment-alt"></i>
+      </a>
+      <button class="fab fab-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
