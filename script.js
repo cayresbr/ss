@@ -304,7 +304,7 @@ function initPreloader() {
     let progress = 0;
     
     const interval = setInterval(() => {
-        progress += Math.random() * 15;
+        progress += 20; //Math.random() * 15;
         if (progress >= 100) {
             progress = 100;
             clearInterval(interval);
@@ -312,7 +312,7 @@ function initPreloader() {
             setTimeout(() => {
                 preloader.classList.add('hidden');
                 document.body.style.overflow = 'auto';
-            }, 500);
+            }, 50);
         }
         loadingPercentage.textContent = Math.round(progress) + '%';
     }, 100);
